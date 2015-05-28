@@ -1,0 +1,7 @@
+.section {
+  padding: 25px;
+
+  @include e(heading) {
+    margin-top: 0;
+  }
+}

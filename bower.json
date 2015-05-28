@@ -1,0 +1,20 @@
+{
+  "name": "mobile-control-panel",
+  "version": "0.0.0",
+  "authors": [
+    "Ken Sheedlo <ken.sheedlo@rackspace.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "canon-bootstrap": "~0.4.0",
+    "font-awesome": "~4.3.0"
+  }
+}

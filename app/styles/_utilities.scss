@@ -1,0 +1,17 @@
+.u {
+  @include e(position-scope) {
+    position: relative;
+  }
+
+  @include e(squeeze-bottom) {
+    margin-bottom: 0;
+  }
+
+  @include e(squeeze-top) {
+    margin-top: 0 !important;
+  }
+
+  @include e(pointer) {
+    cursor: pointer;
+  }
+}

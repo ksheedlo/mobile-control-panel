@@ -1,0 +1,28 @@
+.img {
+  @include e(rackspace-logo) {
+    background: transparent url(/assets/logo-rackspace.png) no-repeat center center;
+    height: 70px;
+    width: 164px;
+
+    @include m(center) {
+      left: 50%;
+      margin-left: -82px;
+      position: absolute;
+    }
+  }
+
+  @include e(intelligence-logo) {
+    background-image: url(/assets/logo-intelligence.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    height: 70px;
+    width: 230px;
+
+    @include m(center) {
+      left: 50%;
+      margin-left: -115px;
+      position: absolute;
+    }
+  }
+}

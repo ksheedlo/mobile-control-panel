@@ -1,0 +1,9 @@
+.mobile {
+  @include e(collapse-btn-wrapper) {
+    padding: 15px;
+  }
+
+  @include e(utility-nav) {
+    margin-top: -20px;
+  }
+}
